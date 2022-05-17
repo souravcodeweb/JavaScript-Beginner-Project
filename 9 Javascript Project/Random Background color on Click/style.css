@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #283faa;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+button{
+    font-family: 'Poppins',sans-serif;
+    font-size: 20px;
+    padding: 20px 45px;
+    background-color: transparent;
+    border: 5px solid #ffffff;
+    color: #ffffff;
+    letter-spacing: 1.5px;
+    border-radius: 50px;
+    cursor: pointer;
+    outline: none;
+}
