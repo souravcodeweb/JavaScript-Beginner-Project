@@ -1,0 +1,124 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background: black;
+    color: #fff;
+    font-family: sans-serif;
+}
+
+section{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font-size: 43px;
+    color: #fff;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-bottom: 30px;
+    text-shadow: 1px 1px 1px #8c9c8c;
+}
+.center{
+    width: 500px;
+    height: 400px;
+    background: none;
+    border: 3px solid green;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.inbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+#v1, #v2{
+    text-align: center;
+    width: 70px;
+    height: 70px;
+    font-size: 30px;
+    background: none;
+    outline: none;
+    border: none;
+    border: 2px solid green;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    color: #fff;
+}
+
+p{
+    font-size: 60px;
+    margin: 0 8px 0 13px;
+}
+
+.middelbox #answ{
+    margin: 30px 0;
+    width: 200px;
+    height: 50px;
+    background: none;
+    outline: none;
+    border: none;
+    border: 2px solid greenyellow;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    color: #fff;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+
+button{
+    width: 210px;
+    height: 40px;
+    background: none;
+    border: none;
+    border: 2px solid green;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    color: #fff;
+    font-size: 20px;
+    font-family: sans-serif;
+    cursor: pointer;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    transition: all 0.3s ;
+    -webkit-transition: all 0.3s ;
+    -moz-transition: all 0.3s ;
+    -ms-transition: all 0.3s ;
+    -o-transition: all 0.3s ;
+}
+button:hover{
+    border: 2px solid #fff;
+    color: green;
+}

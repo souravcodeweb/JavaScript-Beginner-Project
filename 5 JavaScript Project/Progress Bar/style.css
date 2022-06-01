@@ -1,0 +1,129 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #000;
+}
+
+.container{
+    width: 40%;
+    padding: 80px 0;
+    background: #000;
+    box-shadow: 0 0 30px rgba(232, 224, 224, 0.8);
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    text-align: center;
+}
+
+
+.bar{
+    background: #fff;
+    width: 90%;
+    height: 20px;
+    margin: 10px auto;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    overflow: hidden;
+}
+
+.fill{
+    height: 100%;
+    width: 1%;
+    background: linear-gradient(45deg ,#32f007, #f00707);
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+.counter{
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: green;
+    padding: 5px 0;
+}
+button{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 200;
+    font-family: sans-serif;
+    color: #fff;
+    background: #000;
+    margin-top: 20px;
+    border: none;
+    cursor: pointer;
+    padding: 5px 10px;
+    outline: none;
+    border: 2px solid green;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+.output{
+    width: 40%;
+    padding: 80px 0;
+    background: #000;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    box-shadow: 0 0 30px rgba(232, 224, 224, 0.8);
+    text-align: center;
+    display: none;
+}
+.text{
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+    letter-spacing: 3px;
+}
+.output .fa-check{
+    height: 150px;
+    width: 150px;
+    border: 5px solid green;
+    line-height: 150px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    color: green;
+    font-size: 80px;
+    margin-bottom: 30px;
+    animation: animate 1s ease;
+    -webkit-animation: animate 1s ease;
+}
+@keyframes animate{
+    0%{
+        transform: translateY(60px) scale(0.7) rotate(0deg);
+        opacity: 0.2;
+}
+    50%{
+        transform:  scale(0.3) rotate(90deg) skewY(-40deg);
+        width: 50px;
+}
+    75%{
+        transform: scale(1.4) rotate(90deg) skewY(20deg);
+        width: 10px;
+    }
+    100%{
+        transform: translateY(0px) scale(1) rotate(360deg);
+
+    }
+}
