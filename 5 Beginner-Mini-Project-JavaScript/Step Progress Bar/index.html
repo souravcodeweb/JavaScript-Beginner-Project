@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>setp Progress Bar</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="progress-container">
+
+            <hr class="progress-bar-back"></hr>
+
+            <hr class="progress-bar-front">
+                <div class="step checked">
+                    <i class="bx bx-check"></i>
+                    <small>Start</small>
+                </div>
+                <div class="step">
+                    <i class="bx bx-x"></i>
+                </div>
+                <div class="step">
+                    <i class="bx bx-x"></i>
+                </div>
+                <div class="step">
+                    <i class="bx bx-x"></i>
+                </div>
+                <div class="step">
+                    <i class="bx bx-x"></i>
+                </div>
+            </hr>
+        </div>
+        <button class="btn" id="prev">
+            <i class='bx bx-left-arrow-alt' ></i>
+        </button>
+        <button class="btn" id="next">
+            <i class='bx bx-right-arrow-alt' ></i>
+        </button>
+    </div>
+
+    
+    
+
+
+    <script src="./app.js"></script>
+</body>
+</html>
